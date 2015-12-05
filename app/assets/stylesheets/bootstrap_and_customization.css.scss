@@ -1,6 +1,15 @@
-$btn-primary-bg:	#F83B5D;
-$jumbotron-bg:		#2ff475;
-$navbar-inverse-link-color: white;
+$btn-primary-bg:							#F83B5D;
+$jumbotron-bg:								#2ff475;
+$navbar-inverse-link-color: 	white;
+$navbar-height:								45px;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
